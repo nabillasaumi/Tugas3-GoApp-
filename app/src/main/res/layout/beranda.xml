@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="354dp">
+
+        <ImageView
+            android:id="@+id/ivRS"
+            android:onClick="clickRS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rs" />
+
+        <ImageView
+            android:id="@+id/ivSchool"
+            android:onClick="onclickSchool"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/school" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/ivMasjid"
+            android:onClick="onclickMasjid"
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/masjid" />
+
+        <ImageView
+            android:id="@+id/ivMall"
+            android:onClick="onclickMall"
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mall" />
+
+    </TableRow>
+</LinearLayout>
